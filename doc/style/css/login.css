@@ -1,0 +1,165 @@
+.comp {
+  margin: 0;
+  padding: 0;
+}
+.comp .primary {
+  background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg);
+  height: 100vh;
+  overflow: hidden;
+}
+.comp .primary a {
+  display: block;
+  margin: 40px 0 0 100px;
+}
+.comp .primary h1 {
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin: 150px 0 0 100px;
+}
+.comp .general .singup {
+  margin: 40px;
+  display: flex;
+  justify-content: end;
+}
+.comp .general .singup p {
+  margin: 20px;
+}
+.comp .general .singup a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  background-color: #ff497c;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.comp .general .singup a:hover {
+  transform: scale(1.1);
+}
+.comp .login {
+  color: black;
+  padding: 0 2rem;
+  margin-top: 10rem;
+  margin-left: 20rem;
+}
+.comp .login h1 {
+  font-family: serif;
+}
+.comp .login h6 {
+  margin-bottom: 30px;
+  color: #8d9397;
+}
+.comp .login input {
+  position: relative;
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border-radius: 7px;
+  outline: white;
+  border: 1px solid black;
+}
+.comp .login #icon_input {
+  background-color: white;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 20px;
+  padding: 5px;
+  z-index: 1;
+}
+.comp .login input:hover {
+  border: 1px solid #3577f0;
+}
+.comp .login #sing_in {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  background-color: #3577f0;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.comp .login #sing_in:hover {
+  transform: scale(1.1);
+}
+.comp .login #frgt {
+  margin-left: 10rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+.mobile .login {
+  color: black;
+  padding: 0 2rem;
+  text-align: center;
+}
+.mobile .login #logo {
+  display: block;
+  margin: 20px 0;
+}
+.mobile .login #sing_up {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  background-color: #ff497c;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.mobile .login h1 {
+  font-family: serif;
+}
+.mobile .login h6 {
+  margin-bottom: 30px;
+  color: #8d9397;
+}
+.mobile .login input {
+  position: relative;
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border-radius: 7px;
+  outline: white;
+  border: 1px solid black;
+}
+.mobile .login #icon_input {
+  background-color: white;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 20px;
+  padding: 5px;
+  z-index: 1;
+}
+.mobile .login input:hover {
+  border: 1px solid #3577f0;
+}
+.mobile .login #sing_in {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  background-color: #3577f0;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.mobile .login #frgt {
+  margin-left: 2rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .mobile {
+    display: block !important;
+  }
+  .comp {
+    display: none !important;
+  }
+}/*# sourceMappingURL=login.css.map */

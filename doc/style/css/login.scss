@@ -1,0 +1,231 @@
+.comp{
+    margin: 0;
+    padding: 0;
+    
+    .primary{
+        
+        background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg);
+        height: 100vh;
+        overflow: hidden;
+        a{
+            display: block;
+            margin: 40px 0 0 100px;
+        }
+        
+        h1{
+            font-size: 28px;
+            font-family:sans-serif;
+            font-weight: 600;
+            margin: 150px 0 0 100px;
+            
+            
+        }
+    }
+    
+    .general{
+        
+
+        .singup{
+            margin: 40px;
+            display: flex;
+            justify-content: end;
+            
+            p{
+                margin: 20px;
+            }
+            
+            
+            a{
+                box-sizing: border-box;
+                text-decoration: none;
+                color: white;
+                background-color: #ff497c;
+                padding: 20px;
+                border-radius: 8px;
+                transition: .3s;
+            }
+
+            a:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .login{
+        color: black;
+        padding: 0 2rem;
+        margin-top: 10rem;
+        margin-left: 20rem;
+
+
+
+        h1{
+            font-family:serif ;
+        }
+
+        
+        
+        h6{
+            margin-bottom: 30px;
+            color: #8d9397;
+        }
+
+        input{
+            position: relative;
+            display: block;
+            margin: 20px 0;
+            width: 100%;
+            padding: 10px 0 10px 10px;
+            border-radius: 7px;
+            outline:white;
+            border: 1px solid black;
+
+            
+
+        }
+
+        #icon_input{
+            background-color: white;
+            position: absolute;
+            margin-top: -15px ;
+            margin-left: 20px ;
+            padding: 5px;
+            z-index: 1;
+        }
+
+        input:hover{
+            border: 1px solid #3577f0;
+        }
+
+
+        #sing_in{
+            display: inline-block;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: white;
+            background-color: #3577f0;
+            padding: 20px;
+            border-radius: 8px;
+            transition: .3s;
+        }
+
+        #sing_in:hover{
+            transform: scale(1.1);
+        }
+
+        #frgt{
+            margin-left: 10rem;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        
+
+
+
+    }
+}
+
+.mobile{
+    display: none;
+
+    .login{
+        color: black;
+        padding: 0 2rem;
+        text-align: center;
+
+        #logo{
+            display: block;
+            margin: 20px 0;
+        }
+
+        #sing_up{
+            display: inline-block;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: white;
+            background-color: #ff497c;
+            padding: 10px 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+        
+        }
+
+
+        h1{
+            font-family:serif ;
+        }
+
+        
+        
+        h6{
+            margin-bottom: 30px;
+            color: #8d9397;
+        }
+
+        input{
+            position: relative;
+            display: block;
+            margin: 20px 0;
+            width: 100%;
+            padding: 10px 0 10px 10px;
+            border-radius: 7px;
+            outline:white;
+            border: 1px solid black;
+
+            
+
+        }
+
+        #icon_input{
+            background-color: white;
+            position: absolute;
+            margin-top: -15px ;
+            margin-left: 20px ;
+            padding: 5px;
+            z-index: 1;
+        }
+
+        input:hover{
+            border: 1px solid #3577f0;
+        }
+
+
+        #sing_in{
+            display: inline-block;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: white;
+            background-color: #3577f0;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+
+
+        #frgt{
+            margin-left: 2rem;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        
+
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    .mobile{
+        display: block !important;
+       
+    }
+
+    .comp{
+        display: none !important;
+
+    }
+}
+
