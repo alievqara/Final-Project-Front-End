@@ -1,0 +1,59 @@
+.header {
+  margin: 20px 0;
+}
+.header .nav ul {
+  list-style: none;
+}
+.header .nav ul li {
+  display: inline-block;
+}
+.header .nav ul li a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+.header .acc a {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.header .acc a:hover {
+  background-color: rgb(255, 83, 83);
+  color: white;
+  transform: scale(1.1);
+}
+.header .acc #basket {
+  position: relative;
+}
+.header .acc #basket span {
+  display: inline;
+  position: absolute;
+  padding: 4px;
+  background-color: blue;
+  color: white;
+  border-radius: 100%;
+  font-size: 10px;
+  margin-top: -7px;
+  margin-left: -7px;
+}
+.header .search .src {
+  padding: 5px;
+  border: 1px solid gray;
+  align-items: center;
+  border-radius: 5px;
+}
+.header .search .src input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.header .search .src i {
+  display: inline-block;
+}/*# sourceMappingURL=card.css.map */

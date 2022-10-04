@@ -1,0 +1,73 @@
+.header {
+    margin: 20px 0;
+
+    .nav{
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                a{
+                    box-sizing: border-box;
+                    display: inline-block;
+                    padding-top: 10px;
+                    margin-right: 15px;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .acc{
+      a{
+        display: inline-block;
+        color: black;
+        font-size: 20px;
+        margin: 0 5px;
+        padding: 5px 10px;
+        border-radius: 100%;
+        transition: .3s;
+  
+      }
+      a:hover{
+        background-color: rgb(255, 83, 83);
+        color: white;
+        transform: scale(1.1);
+      }
+
+      #basket{
+        position: relative;
+        span{
+            display: inline;
+            position: absolute;
+            padding: 4px;
+            background-color: blue;
+            color: white;
+            border-radius: 100%;
+            font-size: 10px;
+            margin-top: -7px;
+            margin-left: -7px;
+        }
+      }
+
+     
+    }
+
+    .search{
+        .src{
+            padding: 5px;
+            border: 1px solid gray;
+            align-items: center;
+            border-radius: 5px;
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+            
+            }
+            i{
+                display: inline-block;
+            }
+        }
+    }
+  }
