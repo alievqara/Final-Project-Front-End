@@ -1,0 +1,265 @@
+header{
+    
+    .search{
+        border: 1px solid gray;
+        border-radius: 10px;
+
+        input{
+            width: 95%;
+            padding: 10px;
+            border: none !important;
+            outline: none !important;
+        }
+    }
+
+    .func{
+        select{
+            padding: 10px;
+            border-radius: 7px;
+        }
+    }
+
+
+}
+
+
+@media screen and (Max-width: 576px) {
+    header{
+        
+        .logo{
+            width: 45%;
+            display: inline-block;
+
+        }
+
+        .func{
+            width: 45%;
+            display: inline-block;
+        }
+        .search{
+            display: none !important;
+            
+        }
+    }
+}
+
+.forbg{
+    background-color: #f7f7f7;
+    
+    .header_buttom{
+    
+        a{
+            font-size: 18px;
+        }
+    
+        .category{
+            background-color: #3577f0;
+            box-sizing: border-box;
+            a{
+                padding: 20px;
+                display: block;
+                text-decoration: none;
+                color: white;
+                i{
+                    margin: 0 10px;
+                }
+            }
+        }
+    
+        .navbar{
+            ul{
+                list-style: none;
+               
+                li{
+                    display: inline-block;
+                    transition: .3s;
+                    position: relative;
+                    a{
+                        box-sizing: border-box;
+                        display: inline-block;
+                        padding-top: 10px;
+                        margin-right: 20px;
+                        text-decoration: none;
+                        color: black;
+                        
+                        i{
+                            color: gray;
+                        }
+    
+                    }
+                    ul{
+                        background-color: white;
+                        display: none;
+                        position: absolute;
+                        box-shadow: 0px 0px 4px;
+                        border-radius: 10px;
+                        width: 210px;
+                        padding-bottom: 5px;
+                        z-index: 1;
+                        li{
+                            margin-top: 5px;
+                            display: block;
+                        }
+                    }
+                    
+                   
+                }
+    
+                li:hover{
+                        ul{
+                            display: block !important;
+                        }
+                    
+                }
+            }
+        }
+    
+        .account{
+            a{
+              display: inline-block;
+              color: black;
+              font-size: 20px;
+              margin: 0 5px;
+              padding: 5px 10px;
+              border-radius: 100%;
+              transition: .3s;
+        
+            }
+            a:hover{
+              background-color: rgb(255, 83, 83);
+              color: white;
+              transform: scale(1.1);
+            }
+      
+            #basket{
+              position: relative;
+              span{
+                  display: inline;
+                  position: absolute;
+                  padding: 4px;
+                  background-color: blue;
+                  color: white;
+                  border-radius: 100%;
+                  font-size: 10px;
+                  margin-top: -7px;
+                  margin-left: -7px;
+              }
+            }
+      
+           
+          }
+    }
+
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    .categories{
+        margin-top: -1px;
+        padding: 10px 0;
+        border: 2px solid rgb(216, 216, 216);
+        border-radius: 0 0 10px 10px;
+        ul{
+            text-align: start;
+            list-style: none;
+            .menu{
+                width: 95%;
+                cursor: pointer;
+                border-bottom: 1px solid rgb(216, 216, 216) ;
+                border-width: 80% !important;
+                text-decoration: none;
+                span{
+                    display: inline;
+                }
+                i{
+                    display: inline;
+                }
+                    img{
+                    width: 10;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+            
+            }
+
+        }
+    }
+
+    .sliders{
+        display: flex;
+        justify-content: space-between;
+
+        .slider{
+            position: relative;
+            overflow: hidden; 
+
+            img{
+                width: 100%;
+                height: 380px;
+            }
+
+            .prev{
+                position:absolute;
+                font-size: 30px;
+                top: 45%;
+                padding: 20px 50px ;
+                background-color: white;
+                border-radius: 50px;
+                cursor: pointer;
+                left: 50px;
+            }
+
+            .next{
+                position:absolute;
+                font-size: 30px;
+                top: 45%;
+                padding: 20px 50px ;
+                background-color: white;
+                border-radius: 50px;
+                cursor: pointer;
+                right: 50px;
+            }
+
+            @keyframes leftNext {
+                from { left: 100%; }
+                to { left: 0; }
+              }
+              
+              @keyframes leftCurr {
+                from { left: 0; }
+                to { left: -100%; }
+              }
+              
+              @keyframes rightNext {
+                from { left: -100%; }
+                to { left: 0; }
+              }
+              
+              @keyframes rightCurr {
+                from { left: 0; }
+                to { left: 100%; }
+              }
+          
+
+        }
+
+        .image{
+            margin-left: 20px;
+            text-align: center;
+            background-color: #f7f7f7;
+            img{
+                padding: 9px;
+                margin-bottom: 20px;
+            }
+
+            a{
+                margin-bottom: 20px;
+                text-decoration: none;
+
+            }
+
+        }
+    }
+}
+

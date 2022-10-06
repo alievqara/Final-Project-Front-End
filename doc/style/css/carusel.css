@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:after {
+  box-sizing: border-box;
+}
+*:before {
+  box-sizing: border-box;
+}
+
+.wd-carusel {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 5px;
+  position: relative;
+}
+
+.wd-carusel__item {
+  float: left;
+  text-align: center;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.wd-carusel__item:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+.wd-carusel__item > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+}
+
+.wd-carusel__wrap {
+  transition: transform 0.4s;
+}
+.wd-carusel__wrap:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.wd-carusel__nav--icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: absolute;
+  cursor: pointer;
+}
+
+.wd-carusel__nav--left {
+  left: 10px;
+}
+
+.wd-carusel__nav--right {
+  right: 10px;
+}
+
+.wd-carusel {
+  border-radius: 20px 0 20px 0;
+}
+.wd-carusel .product {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  color: black;
+}
+.wd-carusel .product img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+.wd-carusel .product img:hover {
+  opacity: 1;
+  transform: scale(1.5);
+}/*# sourceMappingURL=carusel.css.map */

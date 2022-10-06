@@ -1,0 +1,76 @@
+.background{
+    background-color: #f8f8f8;
+    .cone{
+        width: 50;
+        display: block;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+    }
+
+    .ctwo{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+
+.boxes{
+    h6{
+        color: gray;
+    }
+    input{
+        padding: 10px;
+        margin: 20px 0;
+        border-radius: 7px;
+        outline: none;
+    }
+
+    input:hover{
+        border: 1px solid blue;
+    }
+
+    #msg{
+        padding-bottom: 150px;
+        align-items:stretch;
+    }
+
+    #msgs{
+        margin-left: -50rem;
+    }
+    .forp{
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    span{
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        margin-top: 7px;
+        margin-left: -200px;
+        
+    }
+
+    a{
+        display: inline;
+        text-align: center;
+        width: 20%;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+        background-color: blue;
+        padding: 20px;
+        border-radius: 8px;
+        transition: .3s;
+    }
+
+    a:hover{
+        transform: scale(1.1);
+    }
+    
+}

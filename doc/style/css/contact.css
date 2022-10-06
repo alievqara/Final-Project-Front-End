@@ -1,0 +1,63 @@
+.background {
+  background-color: #f8f8f8;
+}
+.background .cone {
+  width: 50;
+  display: block;
+}
+.background .cone a {
+  color: black;
+  text-decoration: none;
+}
+.background .ctwo {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.boxes h6 {
+  color: gray;
+}
+.boxes input {
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 7px;
+  outline: none;
+}
+.boxes input:hover {
+  border: 1px solid blue;
+}
+.boxes #msg {
+  padding-bottom: 150px;
+  align-items: stretch;
+}
+.boxes #msgs {
+  margin-left: -50rem;
+}
+.boxes .forp {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.boxes span {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 7px;
+  margin-left: -200px;
+}
+.boxes a {
+  display: inline;
+  text-align: center;
+  width: 20%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.boxes a:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=contact.css.map */

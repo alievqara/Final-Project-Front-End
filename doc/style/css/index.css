@@ -1,0 +1,253 @@
+header .search {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+header .search input {
+  width: 95%;
+  padding: 10px;
+  border: none !important;
+  outline: none !important;
+}
+header .func select {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+@media screen and (Max-width: 576px) {
+  header .logo {
+    width: 45%;
+    display: inline-block;
+  }
+  header .func {
+    width: 45%;
+    display: inline-block;
+  }
+  header .search {
+    display: none !important;
+  }
+}
+.forbg {
+  background-color: #f7f7f7;
+}
+.forbg .header_buttom a {
+  font-size: 18px;
+}
+.forbg .header_buttom .category {
+  background-color: #3577f0;
+  box-sizing: border-box;
+}
+.forbg .header_buttom .category a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.forbg .header_buttom .category a i {
+  margin: 0 10px;
+}
+.forbg .header_buttom .navbar ul {
+  list-style: none;
+}
+.forbg .header_buttom .navbar ul li {
+  display: inline-block;
+  transition: 0.3s;
+  position: relative;
+}
+.forbg .header_buttom .navbar ul li a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+.forbg .header_buttom .navbar ul li a i {
+  color: gray;
+}
+.forbg .header_buttom .navbar ul li ul {
+  background-color: white;
+  display: none;
+  position: absolute;
+  box-shadow: 0px 0px 4px;
+  border-radius: 10px;
+  width: 210px;
+  padding-bottom: 5px;
+  z-index: 1;
+}
+.forbg .header_buttom .navbar ul li ul li {
+  margin-top: 5px;
+  display: block;
+}
+.forbg .header_buttom .navbar ul li:hover ul {
+  display: block !important;
+}
+.forbg .header_buttom .account a {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.forbg .header_buttom .account a:hover {
+  background-color: rgb(255, 83, 83);
+  color: white;
+  transform: scale(1.1);
+}
+.forbg .header_buttom .account #basket {
+  position: relative;
+}
+.forbg .header_buttom .account #basket span {
+  display: inline;
+  position: absolute;
+  padding: 4px;
+  background-color: blue;
+  color: white;
+  border-radius: 100%;
+  font-size: 10px;
+  margin-top: -7px;
+  margin-left: -7px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+section .categories {
+  margin-top: -1px;
+  padding: 10px 0;
+  border: 2px solid rgb(216, 216, 216);
+  border-radius: 0 0 10px 10px;
+}
+section .categories ul {
+  text-align: start;
+  list-style: none;
+}
+section .categories ul .menu {
+  width: 95%;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  border-width: 80% !important;
+  text-decoration: none;
+}
+section .categories ul .menu span {
+  display: inline;
+}
+section .categories ul .menu i {
+  display: inline;
+}
+section .categories ul .menu img {
+  width: 10;
+  height: 30px;
+  margin-right: 10px;
+}
+section .sliders {
+  display: flex;
+  justify-content: space-between;
+}
+section .sliders .slider {
+  position: relative;
+  overflow: hidden;
+}
+section .sliders .slider img {
+  width: 100%;
+  height: 380px;
+}
+section .sliders .slider .prev {
+  position: absolute;
+  font-size: 30px;
+  top: 45%;
+  padding: 20px 50px;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  left: 50px;
+}
+section .sliders .slider .next {
+  position: absolute;
+  font-size: 30px;
+  top: 45%;
+  padding: 20px 50px;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  right: 50px;
+}
+@-webkit-keyframes leftNext {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes leftNext {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@-webkit-keyframes leftCurr {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+@keyframes leftCurr {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+@-webkit-keyframes rightNext {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes rightNext {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@-webkit-keyframes rightCurr {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes rightCurr {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+section .sliders .image {
+  margin-left: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+section .sliders .image img {
+  padding: 9px;
+  margin-bottom: 20px;
+}
+section .sliders .image a {
+  margin-bottom: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
