@@ -11,10 +11,19 @@
 }
 
 .wd-carusel {
-  width: 100%;
   overflow: hidden;
   padding: 10px 5px;
-  position: relative;
+}
+.wd-carusel ul {
+  display: flex;
+}
+.wd-carusel ul li {
+  width: 100%;
+  white-space: nowrap;
+  list-style: none;
+}
+.wd-carusel ul li img {
+  width: 200px;
 }
 
 .wd-carusel__item {

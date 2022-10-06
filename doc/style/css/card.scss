@@ -117,15 +117,15 @@
         }
     }
 
-    .all_prod{
+    #all_prod{
         .product{
             font-weight: bold;
             align-items: center;
             border-bottom: 1px solid gray;
     
             img{
-                width: 100px;
-                height: 100px;
+                width: 100px !important;
+                height: 100px !important;
                 margin: 10px 0;
             }
             a{

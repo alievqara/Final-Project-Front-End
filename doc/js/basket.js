@@ -42,25 +42,41 @@ function GetElementsForBasket(){
     let items = '';
     basket.forEach( item => {
         items += `
-                    <div class="col-6 mt-4">
-                        <a  class="btn"  class="btn"href=""><i class="fa-solid fa-xmark"></i></a>
-                        <img src="${item.Image}" alt="">
-                        <a href="">${item.Title}</a>
-                    </div>
-                    <span class="col-2">$115.00</span>
-                    <div class="col-2">
-                        <a class="btn" id="plus" href="">-</a>
-                        <span>5</span>
-                        <a class="btn" id="minus" href="">+</a>
-                    </div>
-                    <span class="col-2" >$277.00</span>
-        `
-
-    })
-    document.getElementById('product').innerHTML = items;
-    
+        <div class="product row align-items-center justify-content-between">
+            <div class="col-5 mt-4">
+                <a  class="btn"  class="btn"href=""><i class="fa-solid fa-xmark"></i></a>
+                <img src="${item.Image}" alt="">
+                <a href="">${item.Title}</a>
+            </div>
+            <span class="col-2">${item.Price}</span>
+            <div class="col-2">
+            <a class="btn" id="plus" href="">-</a>
+            <span>${item.Count}</span>
+            <a class="btn" id="minus" href="">+</a>
+            </div>
+            <span class="col-2" >$277.00</span>
+            </div>
+            `
+            
+            
+            document.getElementById('all_prod').innerHTML = items;
+        })
+        
+        
 }
 GetElementsForBasket();
+
+function Minus(){
+    document.getElementById('minus').addEventListener("click");
+    items.Count -1;
+}
+Minus();
+
+function Plus(){
+    document.getElementById('plus').addEventListener("click");
+    item.Count++;
+}
+Minus();
 
 
 

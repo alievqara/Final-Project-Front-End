@@ -10,10 +10,21 @@
 	}
 }
 .wd-carusel {
-	width: 100%;
 	overflow: hidden;
 	padding: 10px 5px;
-	position: relative;
+
+	ul{
+		display: flex;
+		li{
+			img{
+				width: 200px;
+				
+			}
+			width: 100%;
+			white-space: nowrap;
+			list-style: none;
+		}
+	}
 }
 .wd-carusel__item {
 	float: left;
